@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    border:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.navbar{
+    background-color:#232f3e;
+    display: flex;
+    height: 60px;
+
+}
+.nav-logo{
+    display: flex;
+    flex-direction: row;
+}
+.logo{
+    background-image: url("amazonOrg.webp");
+    height: 55px;
+    background-size: cover;
+    width: 100px;
+     border: 1px solid transparent;
+}
+.search-icon{
+    background-color: pink;
+     height: 40px;
+ width: 52px;
+}
+.logo:hover{
+    border: 1px solid white;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.dropdown{
+}
+#category{
+    height: 40px;
+    width: 52px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+    background-color: #E6E6E6;
+    text-align: center;
+    font-size: 14px;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    color: #565959; /* default grey text */
+    cursor: pointer;
+    border-right: 1px solid #cdcdcd;
+
+}
+.nav-search{
+  align-self: center;
+  display: flex;
+}
+.search-icon{
+     background-color:#febd69;
+     font-size: 20px;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
+     border-top-right-radius: 5px;
+     border-bottom-right-radius: 5px;
+     cursor: pointer;
+     text-align: center;
+
+}
+.search{
+ height: 40px;
+ width: 400px;
+ border: none;
+ padding-left: 10px;
+
+
+}
+
+.loc{
+   display: flex;
+   flex-direction: row;
+   height: 55px;
+   width: 7.9rem;
+   border: 1px solid transparent;
+   color:white;
+
+}
+.icon{
+    align-self: center;
+    margin: 8px 0 0;
+}
+
+.provider{
+    color: #cccccc;
+    display: inline-block;
+    font-size: 12px;
+    text-align: center;
+    width: 110px;
+}
+.try{
+    width: 0.1rem;
+    height: 2.9rem;
+    margin: 5px 0px 5px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.address{
+     display: inline-block;
+     width: 110px;
+     font-size: 14px;
+     text-align: center;
+}
+
+
+.loc:hover{
+border: 1px solid white;
+border-radius: 2px;
+cursor: pointer;
+}
